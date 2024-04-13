@@ -1,0 +1,46 @@
+/* Write your CSS here */
+
+.each-appoint {
+  height: 80px;
+  width: 230px;
+  border-color: #b5b7c4;
+  border-radius: 8px;
+  border-width: 2px;
+  border-style: solid;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.name-container {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.star-button {
+  outline: none;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.each-name {
+  font-family: Roboto;
+  color: #171f46;
+  font-weight: bold;
+}
+
+.each-date {
+  height: 20px;
+  font-family: Roboto;
+  color: #b5b7c4;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: 10px;
+}

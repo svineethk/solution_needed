@@ -1,0 +1,170 @@
+/* Write your CSS here */
+
+.app-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #fbc7d4, #9796f0);
+}
+
+.container {
+  font-family: Roboto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  min-height: 450px;
+  height: auto;
+  width: 850px;
+}
+
+.entry-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 35px;
+}
+
+.header {
+  color: #171f46;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  height: 35px;
+  width: 229px;
+  margin-bottom: 25px;
+  outline: none;
+  color: #171f46;
+  border-color: #b5b7c4;
+}
+
+.input-header {
+  font-family: Roboto;
+  font-weight: 600;
+  color: #b5b7c4;
+  margin-bottom: 10px;
+}
+
+.button {
+  height: 35px;
+  width: 229px;
+  color: #ffffff;
+  background-color: #8b5cf6;
+  border-radius: 8px;
+  outline: none;
+}
+
+.button :hover {
+  cursor: pointer;
+}
+
+.image-container {
+  height: 350px;
+  width: 500px;
+}
+
+.image-logo {
+  margin-left: 60px;
+  height: 280px;
+  width: 400px;
+}
+
+.hr-line {
+  color: #b5b7c4;
+  height: 1px;
+  width: 800px;
+}
+
+.display-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  margin-left: 35px;
+}
+
+.display-header {
+  color: #171f46;
+  font-weight: 600;
+}
+
+.list-container {
+  margin: 30px;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.starred {
+  color: #8b5cf6;
+  border-color: #8b5cf6;
+  font-family: Roboto;
+  font-size: 12px;
+  height: 25px;
+  width: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-right: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 12px;
+  outline: none;
+}
+
+.star-clicked {
+  background-color: #9897f0;
+  color: #ffffff;
+}
+
+.star-nonClicked {
+  background-color: transparent;
+  color: #9897f0;
+}
+
+@media (max-width: 576px) {
+  .image-container {
+    display: none;
+  }
+
+  .app-container {
+    height: auto;
+    width: 100vw;
+    background: linear-gradient(to bottom, #fbc7d4, #9796f0);
+    padding: 20px;
+  }
+
+  .container {
+    font-family: Roboto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-right: 20px;
+    height: auto;
+    width: 450px;
+  }
+
+  .entry-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 35px;
+  }
+
+  .hr-line {
+    color: #b5b7c4;
+    height: 1px;
+    width: 400px;
+  }
+}
